@@ -1,0 +1,156 @@
+/* 
+    Document   : login
+    Created on : 04/09/2013, 14:16:46
+    Author     : Tiago Torres
+    Description: css da página de login.
+    Purpose of the stylesheet follows.
+*/
+
+html, body {height:100%;}
+
+body{
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+}
+
+/*#cpanelLogin h1{
+    background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
+    height: 65px;
+    text-indent: -9999px;
+    width: 275px;
+    margin: 0 auto;
+    margin-top: 35px;
+}*/
+
+#boxLogin{
+    margin-top:50px;
+}
+
+#cpanelLogin {
+    min-height:100%;
+    position:relative;
+    /*background: url('../images/pw_maze_white.png');*/
+}
+
+#cpanelLogin .content{
+    overflow:hidden;
+}
+
+#cpanelLogin .footer {
+    background: none repeat scroll 0 0 #D8E0E2;
+    border-top: 20px solid #6D828D;
+    height: 120px;
+    position:absolute;
+    bottom:0;
+    width:100%
+}
+
+#cpanelLogin .footer p {
+    margin: 0 auto;
+    width: 980px;
+    padding-top: 25px;
+    font-size: 11px;
+}
+
+#cpanelLogin .ui-state-highlight p {
+    font-size: 11px;
+    height: 20px;
+    margin-bottom: 10px;
+    padding-top: 7px;
+}
+
+#cpanelLogin .ui-state-highlight {
+    margin-bottom: 10px;
+}
+
+#cpanelLogin .large-12.columns {
+    padding: 0;
+}
+
+.loginform{
+    margin-top: 0px;
+}
+
+.loginform fieldset {
+    background: none repeat scroll 0 0 #EAEAEA;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px;
+}
+
+fieldset legend {
+    background: none;
+    font-weight: bold;
+    margin: 0 0 0 -0.1875em;
+    padding: 0 0.1875em;
+    font-size: 16px;
+    color: #000000;
+    display: none;
+}
+
+.loginform .alert-box.alert {
+    background-color: #FEADB2;
+    border-color: #FF8E95;
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    width: 290px;
+    display: none;
+}
+
+.loginform span.error, .loginform small.error {
+    background: none;
+    color: #222222;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 1em;
+    margin-top: -1em;
+    padding: 5px;
+}
+
+.loginform .ui-state-highlight, .loginform .ui-widget-content .loginform .ui-state-highlight, .loginform .ui-widget-header .loginform .ui-state-highlight {
+    background: #fed9b7;
+    border: 1px solid #ffc48e;
+    color: #363636;
+    border-radius: 0px;
+}
+
+.loginform .ui-state-error {
+    background: none repeat scroll 0 0 #FEADB2;
+    color: #222222;
+    border-color: #FF8E95;
+    border-radius: 0px;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 1em;
+    margin-top: -1em;
+    height: 30px;
+}
+
+.loginform .ui-state-error p{
+    padding: 5px;
+    color: #222222;
+}
+
+.loginform .ui-state-error .ui-icon, .loginform .ui-state-error-text .ui-icon {
+    background-image: none;
+}
+
+#cpanelLogin span.ui-icon{
+    display: none;
+}
+
+#cpanelLogin strong{
+    display: none;
+}
+
+#cpanelLogin .button{
+    border-radius: 0px;
+}

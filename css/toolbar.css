@@ -1,0 +1,68 @@
+/* 
+    Document   : toolbar
+    Created on : 05/09/2013, 15:55:04
+    Author     : Tiago Torres
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.toolbar{
+    font-size: 12px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    min-height: 24px;
+    display: inline-block;
+}
+
+.toolbar .large-2.btIcon{
+    /*border: solid 1px #dbdbdb;
+        background: #e5e5e5;*/
+    padding: 5px;
+    width: auto;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.toolbar .large-2.btIcon:hover{
+    /*border: solid 1px #b2b2b2;
+        background: #bcbcbc;*/
+}
+
+#dialog-link {
+    padding: .4em 1em .4em 20px;
+    text-decoration: none;
+    position: relative;
+    background: none;
+    border: none;
+}
+
+#dialog-link span.ui-icon {
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: .2em;
+    top: 50%;
+    margin-top: -8px;
+}
+
+#icons {
+    margin: 0;
+    padding: 0;
+}
+
+#icons li {
+    margin: 2px;
+    position: relative;
+    padding: 4px 0;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+
+#icons span.ui-icon {
+    float: left;
+    margin: 0 4px;
+}
+
+.fakewindowcontain .ui-widget-overlay {
+    position: absolute;
+}

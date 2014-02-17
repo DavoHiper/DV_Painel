@@ -1,0 +1,178 @@
+# Webalizer V2.21-02 Incremental Data - 09/02/2013 17:33:03
+2013 9 2 17 33 3
+258 80 1 22 6 1 24176854 62 6 0
+1 53 192 2 2
+0 0 0 0 0 0
+258 80 24176854 1 62 6
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+140 28 8240862 22
+0 0 0 0
+38 26 8165442 20
+0 0 0 0
+0 0 0 0
+24 16 5047638 13
+3 3 1122819 3
+53 7 1600093 4
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+80
+0
+0
+0
+0
+0
+0
+0
+0
+18
+0
+146
+0
+0
+0
+0
+0
+0
+14
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/css/jQueryUI/images/ui-icons_2e83ff_256x240.png
+1 1 13516368 4549 0 0
+/js/controllers/J0004.js
+0 13 13516768 2269 0 0
+/Clogin/login
+0 17 13514448 8139977 1 2
+/css/jQueryUI/images/ui-icons_cd0a0a_256x240.png
+1 2 13515648 0 0 0
+/painel
+0 7 13516064 2696736 0 0
+/css/style.css
+0 13 13515056 0 0 0
+/css/jQueryUI/images/ui-bg_glass_55_fbf9ee_1x400.png
+1 1 13516512 335 0 0
+/css/foundation/foundation.min.css
+0 13 13514784 0 0 0
+/C0004/novo
+0 5 13517504 1871365 1 0
+/css/jQueryUI/images/ui-icons_888888_256x240.png
+1 10 13517040 0 0 0
+/C0004/index/20
+0 4 13517184 1597692 0 0
+/images/logo.png
+1 11 13516176 0 0 0
+/js/jquery-1.9.1.js
+0 27 13515312 3757334 0 0
+/css/foundation/normalize.css
+0 13 13514560 0 0 0
+/css/jQueryUI/jquery-ui-1.10.3.custom.css
+0 13 13514912 0 0 0
+/js/DV_funcoesGerais.js
+0 19 13515536 15192 0 0
+/js/jQueryUI/jquery-ui-1.10.3.custom.min.js
+0 20 13515168 1596959 0 0
+/C0004/index/20/novo
+0 2 13517296 798738 3 2
+/js/foundation.min.js
+0 14 13515424 83200 0 0
+/css/jQueryUI/images/ui-bg_glass_75_e6e6e6_1x400.png
+1 10 13516896 0 0 0
+/css/jQueryUI/images/ui-bg_glass_95_fef1ec_1x400.png
+1 2 13515920 0 0 0
+/C0004
+0 9 13516656 3592081 0 1
+# End Of Table - urls
+# -sites- (monthly)
+guace014.grupodavo.davo.com.br
+0 258 80 24176854 6 1378143182
+/C0004
+# End Of Table - sites (monthly)
+# -sites- (daily)
+guace014.grupodavo.davo.com.br
+0 258 80 24176854 6 1378143182
+/C0004
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 1
+http://intranet3/painel
+0 32
+http://intranet3/C0004
+0 74
+http://intranet3/Clogin/login
+0 38
+http://intranet3/css/jQueryUI/jquery-ui-1.10.3.custom.css
+0 26
+http://intranet3/C0004/index/20
+0 87
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+0 258
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

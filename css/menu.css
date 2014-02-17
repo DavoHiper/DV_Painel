@@ -1,0 +1,44 @@
+/* 
+ * Document   : menu.css
+ * Created on : 06/09/2013
+ * Author     : Tiago Torres - Criarenet
+ * Description: Criação do arquivo de menu para a intranet.
+ */
+
+#menu{
+    margin: 0 auto;
+    height: 45px;
+}
+
+#menu .top-bar{
+    background: #5b5b5b;  
+}
+
+#menu .top-bar section.top-bar-section ul.left,
+#menu .top-bar section.top-bar-section ul.right{
+    background: #5b5b5b;    
+}
+
+#menu .top-bar-section ul li > a{
+    background: #5b5b5b;  
+}
+
+#menu .top-bar-section ul li > a:hover{
+    background: #939393;    
+}
+
+#menu .top-bar-section > ul > .divider, #menu .top-bar-section > ul > [role="separator"] {
+    border: solid 1px #757575;
+    clear: none;
+    height: 45px;
+    width: 0;
+}
+
+#menu .top-bar-section .divider, #menu .top-bar-section [role="separator"] {
+    border-bottom: solid 1px #757575;
+    border-top: solid 1px #757575;
+    clear: both;
+    height: 1px;
+    width: 100%;
+}
+

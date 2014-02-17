@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Davo Supermercados | Login</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/login.css" rel="stylesheet" type="text/css" />
+        <script type='text/javascript' src='http://intranet1.grupodavo.davo.com.br/intranet/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+        <script type='text/javascript' src='http://intranet1.grupodavo.davo.com.br/intranet/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+        <script>
+
+            var siteUrl = "http://intranet1.grupodavo.davo.com.br/intranet";
+
+
+            var doQuery = function() {
+
+                var login, password, login_wp, pass_wp, wp_iframe, wploginLoaded;
+                login = document.getElementById("name");
+                password = document.getElementById("password");
+
+                jQuery('#login').removeClass('error');
+
+                try {
+                    wp_iframe = document.getElementById('wpFrame');
+                    login_wp = wp_iframe.contentWindow.document.getElementById('user_login');
+                    pass_wp = wp_iframe.contentWindow.document.getElementById('user_pass');
+
+                    login_wp.value = login.value;
+                    pass_wp.value = password.value;
+                    wploginLoaded = true;
+                } catch (e) {
+
+                }
+
+
+                //document.getElementById("wpFrame").onload = function() {
+                jQuery.getJSON(siteUrl + "?router=home/js.usuario", {login: login.value, senha: password.value, action: 'login', evento: 1}, function(data) {
+                    if (data) {
+
+                        if (wploginLoaded) {
+                            wp_iframe.contentWindow.document.forms[0].submit();
+                        } else {
+                            window.location.href = siteUrl;
+                        }
+
+
+                    } else {
+                        jQuery('#login').addClass('error');
+                    }
+                });
+                //}
+            };
+
+            jQuery(function() {
+                jQuery('#loginButton').on('click', function(evt) {
+                    evt.preventDefault();
+                    doQuery();
+                })
+            });
+
+            attachEvent = function() {
+                document.getElementById("wpFrame").onload = function() {
+                    window.location.href = siteUrl;
+                };
+            };
+        </script>
+    </head>
+    <body >
+
+        <div id="wrapperLogin">
+            <div id="login" >
+                <h1>Davo Supermercados</h1>
+                <p id="invalidLogin">Invalid login</p>
+                <div id="loginAcess">
+                    <form action="http://intranet?router=home/js.usuario" method="post" class="validaFormulario">
+                        
+                        <h5>Digite o login e senha da Rede!</h5>
+
+                        <div class="grid_3">
+                            <label class="label">Usu&aacute;rio:</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="grid_3">
+                            <label class="label">Senha:</label>
+                            <input type="password" name="password" id="password" value="" />
+                        </div>
+                        <div class="clear"></div>
+                    </form>
+
+                    <div class="buttonSet">
+                        <button id="loginButton" type="submit">
+                            <span class="ico"></span>
+                            Entrar
+                        </button>
+                    </div>
+                </div>
+                <div id="frames">
+                    <iframe id="wpFrame" src="http://intranet1.grupodavo.davo.com.br/intranet/wp-admin" onload="attachEvent"></iframe>                 
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

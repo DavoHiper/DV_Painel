@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><root><FtpSiteDeployer basedir="/web/CI" createbkp="yes" host="intranet1" pass="intranet" port="21" project-type="php" user="adm_wp"/></root>

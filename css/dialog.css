@@ -1,0 +1,238 @@
+/* 
+ * Document   : dialog.css
+ * Created on : 06/09/2013
+ * Author     : Tiago Torres - Criarenet
+ * Description: Criação do arquivo de dialog para a intranet.
+ */
+
+.dialogSystem{
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 13px;
+}
+
+/*.dialogSystem .ui-widget-content{
+    background: none repeat scroll 0 0 #EAEAEA;
+    border: 1px solid #E0E0E0; 
+}*/
+
+.dialogSystem .messageError{
+    margin-top: 15px;
+}
+
+.dialogSystem .ui-dialog-titlebar{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #cccccc;
+    border-image: none;
+    border-left: medium none;
+    border-radius: 0 0 0 0;
+    border-right: medium none;
+    border-top: medium none;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.dialogSystem.ui-dialog-titlebar-close{
+    border: none;
+}
+
+.dialogSystem span.ui-dialog-title{
+    float: left;
+    min-height: 16px;
+    margin: 0.1em 0;
+    /*overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 90%;*/
+}
+
+.dialogSystem .ui-dialog-content{
+    font-size: 13px;
+}
+
+.dialogSystem .ui-dialog-buttonpane{ 
+    border: none;
+}
+
+.dialogSystem .ui-dialog-buttonset{
+    font-size: 13px;
+}
+
+.dialogSystem button.ui-button-text-only {
+    background: none repeat scroll 0 0 #2BA6CB;
+    border-color: #2284A1;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    border-radius: 0px;
+}
+
+.dialogSystem button.ui-button-text-only:hover {
+    background: none repeat scroll 0 0 #2284a1;
+}
+
+.dialogSystem label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/*.dialogSystem .large-6, .dialogSystem .large-4{
+    width: auto;
+}*/
+
+.dialogSystem input[type='checkbox']{
+    margin: 0 5px 0 0;
+}
+
+.dialogSystem select {
+    padding: 3px;
+}
+
+/*.dialogSystem .row {
+    margin-top: 10px;
+}*/
+
+.dialogSystem input:focus, .dialogSystem select:focus {
+    background-color:#faf0d6;
+    border: solid 1px #eece7b;
+    box-shadow: none;
+} 
+
+.dialogSystem .row {
+    /*background: none repeat scroll 0 0 #EAEAEA;
+      border: 1px solid #E0E0E0;*/
+    margin: 10px;
+    padding: 10px;
+}
+
+/*RADIOSET*/
+/*#radioset{
+    background: red;
+}*/
+/*END RADIOSET*/
+
+/*ALERTS*/
+.dialogSystem span.error, .dialogSystem small.error {
+    background: none;
+    color: #ad0000;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 1em;
+    margin-top: -1em;
+    padding: 5px;
+}
+
+.dialogSystem .ui-state-highlight, .dialogSystem .ui-widget-content .dialogSystem .ui-state-highlight, .dialogSystem .ui-widget-header .dialogSystem .ui-state-highlight {
+    background: #fed9b7;
+    border: 1px solid #ffc48e;
+    color: #363636;
+    border-radius: 0px;
+}
+
+.dialogSystem .ui-state-error {
+    background: none repeat scroll 0 0 #FEADB2;
+    color: #222222;
+    border-color: #FF8E95;
+    border-radius: 0px;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 1em;
+    margin-top: -1em;
+    height: 30px;
+}
+
+.dialogSystem .ui-state-error p{
+    padding: 5px;
+    color: #222222;
+}
+
+.dialogSystem .alert-box.alert {
+    background-color: #FEADB2;
+    border-color: #FF8E95;
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    width: 290px;
+    display: none;
+}
+/*END ALERTS*/
+
+.list .row.collapse {
+    padding: 0;
+}
+
+.list .prefix.button {
+    line-height: 2.125em;
+    margin-left: 30px;
+    padding: 6px 5px 22px;
+    text-align: center;
+    width: 29px;
+}
+
+.list input{
+    padding: 7px;
+    width: 320px;
+}
+
+.list input:focus{
+    background-color:#faf0d6;
+    border: solid 1px #eece7b;
+    box-shadow: none;
+} 
+
+.list select {
+    border: 1px solid #CCCCCC;
+}
+
+.list select {
+    margin-top: -10px;
+}
+
+/*Inibi Radio Foundation*/
+form.custom .custom.radio{
+	display:none;
+	background: red;
+}
+
+.dialogSystem textarea{
+    height: 44px;
+    width: 548px;
+}
+
+.dialogSystem .fileinput-button input {
+    cursor: pointer;
+    direction: ltr;
+    font-size: 200px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.dialogSystem div.row {
+    margin: 3px;
+    padding: 0;
+}
+
+.dialogSystem .ui-dialog-buttonpane {
+    margin: 0;
+    margin-top: -15px;
+    padding: 0px;
+    padding-right: 5px;  
+}
+
+.dialogSystem .botao-acao-form{
+    top:22px;
+}
